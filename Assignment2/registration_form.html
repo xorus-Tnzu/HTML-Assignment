@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    		<title>Registration Form</title>
+	</head>
+	<body style="background-color: lavender;">
+		<h1 align="center">Welcome to Our Community Workshop Registration</h1>
+    		<p align="center">
+			Our local community center is organizing a workshop on <strong>Digital Photography Basics</strong>.If you are interested in learning how to take great photos and understanding your camera better, please fill out the registration form below.
+		</p>
+
+    		<h1 align="center">Registration Form</h1>
+
+    		<form action="#" method="post">
+        		<table width="500" height="100" border="1" align="center">
+				
+				<!-- FullName -->
+            			<tr>
+                			<td>
+						<label for="fullname">Full Name:</label>
+					</td>
+                			<td>
+						<input type="text" id="fullname" name="fullname" required>
+					</td>
+            			</tr>
+			
+				<!-- Age -->
+            			<tr>
+                			<td>
+						<label for="age">Age:</label>
+					</td>
+                			<td>
+						<input type="number" id="age" name="age" min="10" max="100">
+					</td>
+            			</tr>
+			
+				<!-- Gender -->
+            			<tr>
+                			<td>
+						Gender:
+					</td>
+                			<td>
+                    				<input type="radio" id="male" name="gender" value="Male">
+                    				<label for="male">Male</label>
+						<br>
+                    				<input type="radio" id="female" name="gender" value="Female">
+                   				<label for="female">Female</label>
+						<br>
+                    				<input type="radio" id="other" name="gender" value="Other">
+                    				<label for="other">Other</label>
+                			</td>
+            			</tr>
+
+            			<!-- Address -->
+            			<tr>
+                			<td>
+						<label for="address">Address:</label>
+					</td>
+                			<td>
+                    				<textarea id="address" name="address" rows="3" cols="30" placeholder="Enter your full address"></textarea>
+                			</td>
+            			</tr>
+	
+				<tr>
+                			<td>
+						<label for="phone">Phone Number:</label>
+					</td>
+                			<td>
+						<input type="tel" id="phone" name="phone">
+					</td>
+            			</tr>
+
+				<!-- Email Address -->
+           			<tr>
+                			<td>
+						<label for="email">Email Address:</label>
+					</td>
+                			<td>
+						<input type="email" id="email" name="email" required>
+					</td>
+            			</tr>
+
+				<!-- Upload a Sample Photo -->
+            			<tr>
+                			<td>
+						<label for="photo">Upload a Sample Photo:</label>
+					</td>
+                			<td>
+                    				<input type="file" id="photo" name="photo" accept="image/*" required>
+                			</td>
+            			</tr>
+
+				<!-- Photography Experience -->
+				<tr>
+                			<td>
+						<label for="experience">Photography Experience:</label>
+					</td>
+                			<td>
+                    				<select id="experience" name="experience" required>
+                        				<option value="">--Select--</option>
+                        				<option value="none">None (Beginner)</option>
+                        				<option value="some">Some Experience</option>
+                        				<option value="advanced">Advanced</option>
+                    				</select>
+                			</td>
+            			</tr>
+				
+				<!-- Preferred Workshop Days -->
+				<tr>
+                			<td>
+						Preferred Workshop Days:
+					</td>
+                			<td>
+                    				<input type="checkbox" id="day1" name="days" value="Saturday">
+                    				<label for="day1">Saturday</label>
+						<br>
+                    				<input type="checkbox" id="day2" name="days" value="Sunday">
+                    				<label for="day2">Sunday</label>
+                			</td>
+            			</tr>
+
+            			<!-- Preferred Time Slot -->
+            			<tr>
+                			<td>
+						<label for="timeslot">Preferred Time Slot:</label>
+					</td>
+                			<td>
+                    				<select id="timeslot" name="timeslot">
+                        				<option value="">--Select--</option>
+                        				<option value="morning">Morning (9 AM - 12 PM)</option>
+                        				<option value="afternoon">Afternoon (1 PM - 4 PM)</option>
+                        				<option value="evening">Evening (5 PM - 8 PM)</option>
+                    				</select>
+                			</td>
+            			</tr>
+
+            			<!-- Do you need a certificate? -->
+            			<tr>
+                			<td>
+						Do you need a certificate?
+					</td>
+               				<td>
+                    				<input type="radio" id="certYes" name="certificate" value="Yes">
+                    				<label for="certYes">Yes</label>
+						<br>
+                    				<input type="radio" id="certNo" name="certificate" value="No">
+                    				<label for="certNo">No</label>
+                			</td>
+            			</tr>
+
+            			
+				<!-- Area for asking any questions -->
+            			<tr>
+                			<td>
+						<label for="questions">Any questions/topics:</label>
+					</td>
+                			<td>
+						<textarea id="questions" name="questions" rows="4" cols="30" placeholder="Write here..."></textarea>
+					</td>
+            			</tr>
+	
+            			
+			
+            			<tr>
+                			<td colspan="2" align="center">
+                    				<input type="submit" value="Register">
+                    				<input type="reset" value="Clear">
+                			</td>
+            			</tr>
+        		</table>
+    		</form>
+
+	</body>
+</html>
