@@ -10,3 +10,18 @@ These are all my assignment questions given by college professor in due course.
               • Use paragraph tag to create paragraph.
               • Use bold,italic and underline tags for text formatting.
               • Include using comment Syntax ,as & when needed.
+              
+### `Question 2`: [Create a HTML page on "Shopping Items".](https://github.com/xorus-Tnzu/HTML-Assignment/blob/main/Assignment1/shopping_items.html)
+        Use the following 
+              • Demonstrate Ordered lists & Unordered lists with different Shopping items.
+              • Use list item tags.
+              • Use the line break tag.
+              
+### `Question 3`: [Create a table  data of an inning in a cricket match:--](https://github.com/xorus-Tnzu/HTML-Assignment/blob/main/Assignment1/innings.html)
+        The following coloumns:--
+              • Name of the player
+              • Runs scored 
+              • Balls faced 
+              • No_of_fours_hit
+              • No_of_six_hit
+        Show scores of all 11(eleven) players of the team.
