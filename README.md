@@ -3,4 +3,10 @@ These are all my assignment questions given by college professor in due course.
 
 ## ASSIGNMENT I QUESTIONS:
 
-### `Question 1`: [WAP in JAVA to SWAP values of two variables without using third variable.](https://github.com/xorus-Tnzu/Java_Assignment/blob/main/Assignment%201/Assignment1Q1.java) 
+### `Question 1`: [Write a HTML page on "About Myself".
+Use following HTML tags:
+• <html>,<head>,<title>,<body>.
+• Use different heading tags:(<h1> to <h6>).
+• Use paragraph tag to create paragraph.
+• Use bold,italic and underline tags for text formatting.
+• Include using comment Syntax ,as & when needed.](https://github.com/xorus-Tnzu/HTML-Assignment/blob/main/Assignment1/about_myself.html) 
