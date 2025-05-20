@@ -30,4 +30,5 @@ These are all my assignment questions given by college professor in due course.
 
 ## ASSIGNMENT II QUESTIONS:
 
-### `Question 1`: [Create a web page using HTML for following topic –A local community center is organizing a workshop and needs an online registration form.](https://github.com/xorus-Tnzu/HTML-Assignment/blob/main/Assignment2/registration_form.html)
+### `Question 1`: Create a web page using HTML for following topic –
+[A local community center is organizing a workshop and needs an online registration form.](https://github.com/xorus-Tnzu/HTML-Assignment/blob/main/Assignment2/registration_form.html)
