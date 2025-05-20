@@ -27,3 +27,8 @@ These are all my assignment questions given by college professor in due course.
               • No_of_fours_hit
               • No_of_six_hit
         Show scores of all 11(eleven) players of the team.
+
+## ASSIGNMENT II QUESTIONS:
+
+### `Question 1`: [Create a web page using HTML for following topic –
+ A local community center is organizing a workshop and needs an online registration form.](https://github.com/xorus-Tnzu/Java_Assignment/blob/main/Assignment%201/Assignment1Q1.java) 
