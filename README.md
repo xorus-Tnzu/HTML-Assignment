@@ -35,4 +35,4 @@ These are all my assignment questions given by college professor in due course.
 ### `Question 1`: Create a web page using HTML for following topic:–-
 [A local community center is organizing a workshop and needs an online registration form.](https://github.com/xorus-Tnzu/HTML-Assignment/blob/main/Assignment2/registration_form.html)
 
-### `Question 2`: [A local pizza shop wants to design a page showing details of different types of pizza, and also design a form where customers can order pizza.]()
+### `Question 2`: [A local pizza shop wants to design a page showing details of different types of pizza, and also design a form where customers can order pizza.](https://github.com/xorus-Tnzu/HTML-Assignment/blob/main/Assignment2/Q2-Pizza/pizza.html)
