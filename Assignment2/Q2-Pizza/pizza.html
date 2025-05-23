@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+	<head>
+  		<title>Pizza Delight</title>
+	</head>
+	<body style="background-color:lightyellow;">
+
+  	<h1 style="color:darkred; background-color:lightgoldenrodyellow; text-align:center;">
+    		Welcome to Pizza Delight!
+  	</h1>
+
+  	<h2 style="color:green; background-color:lightgray;">🍕 Our Pizza Menu</h2>
+
+  	<h3 style="color:darkblue;">Margherita</h3>
+  	<img src="images/margarita.jpg" width="200" alt="Margherita Pizza">
+  	<p>Classic pizza with cheese and tomato.</p>
+
+  	<h3 style="color:darkgreen;">Pepperoni</h3>
+  	<img src="images/Pepperoni_pizza.jpg" width="200" alt="Pepperoni Pizza">
+  	<p>Spicy pepperoni and gooey cheese.</p>
+
+  	<h3 style="color:maroon;">Veggie Supreme</h3>
+  	<img src="images/veggie_supreme.jpg" width="200" alt="Veggie Supreme Pizza">
+  	<p>Loaded with fresh vegetables.</p>
+
+  	<h2 style="color:blue; background-color:lightcyan;">📝 Order Form</h2>
+
+  	<form style="background-color:papayawhip" action="#" method="post">
+
+		<!--Name-->
+    		<label style="color:darkblue;">Name:</label><br>
+    		<input type="text" name="name">
+		
+		<br><br>
+
+		<!--Select Pizza-->
+    		<label style="color:darkblue;">Select Pizza:</label><br>
+    		<select name="pizza">
+      			<option>Margherita</option>
+      			<option>Pepperoni</option>
+      			<option>Veggie Supreme</option>
+    		</select>
+		
+		<br><br>
+		
+		<!--Crust Type-->
+		<label style="color:darkblue;">Crust Type:</label><br>
+		<select name="crust">
+  			<option>Thin</option>
+  			<option>Thick</option>
+  			<option>Cheese Burst</option>
+  			<option>Stuffed</option>
+		</select>
+
+		<br><br>
+
+		<!--Extra Toppings-->
+		<label style="color:darkblue;">Extra Toppings:</label>
+		<br>
+		<input type="checkbox" name="toppings" value="Olives"> Olives
+		<br>
+		<input type="checkbox" name="toppings" value="Mushrooms"> Mushrooms
+		<br>
+		<input type="checkbox" name="toppings" value="Extra Cheese"> Extra Cheese
+		<br>
+		<input type="checkbox" name="toppings" value="Onions"> Onions
+
+		<br><br>
+
+		<!--Size-->
+		<label style="color:darkblue;">Size:</label>
+		<br>
+		<input type="radio" name="size" value="Small"> Small
+		<input type="radio" name="size" value="Medium"> Medium
+		<input type="radio" name="size" value="Large"> Large
+		
+		<br><br>
+
+		<!--Quantity-->
+    		<label style="color:darkblue;">Quantity:</label><br>
+    		<input type="number" name="quantity">
+
+		<br><br>
+		
+		<!--Preferred Delivery Time-->
+		<label style="color:darkblue;">Preferred Delivery Time:</label><br>
+		<input type="time" name="delivery_time">
+		
+		<br><br>
+		
+		<!--Delivery Address-->
+    		<label style="color:darkblue;">Delivery Address:</label><br>
+    		<textarea name="address" rows="3" cols="30"></textarea>
+
+		<br><br>
+	
+		<!--Phone Number-->
+		<label style="color:darkblue;">Phone Number:</label><br>
+		<input type="tel" name="phone">
+		
+		<br><br>
+
+		<!--Payment Method-->
+		<label style="color:darkblue;">Payment Method:</label><br>
+		<select name="payment">
+  			<option>Cash on Delivery</option>
+  			<option>UPI</option>
+  			<option>Credit/Debit Card</option>
+		</select>
+
+		<br><br>
+
+    		<input type="submit" value="Place Order" style="background-color:green; color:white;">
+		<br>
+		<input type="reset" value="clear" style="background-color:white; color:red;">
+  	</form>
+
+  <p style="color:gray; text-align:center;">Thank you for ordering from Pizza Delight!</p>
+
+</body>
+</html>
